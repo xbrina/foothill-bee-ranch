@@ -1,3 +1,15 @@
 @charset "utf-8";
-/* CSS Document */
 
+.container {
+	width: 80%;
+}
+
+img {
+	margin: auto;
+	width: 100%;
+}
+
+.navbar-inverse {
+	font-size: 16px;
+	padding: 5px;
+}
