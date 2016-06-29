@@ -11,11 +11,12 @@
 </head>
 
 <body>
+  <div id="bg">
 	<div class="container">
     
     	<div class="header">
         <img src="image/headerimg.jpg" class="img-responsive" alt="header" />
-      </div>
+      </div><br />
         
         <nav class="navbar navbar-inverse navbar-fixed-top">
   			<div class="container-fluid">
@@ -35,7 +36,19 @@
         				<li><a href="#">Pollination Consulting</a></li>
         				<li><a href="#">Bee Gardens</a></li> 
         				<li><a href="#">Bee Management</a></li>
-                        <li class="disabled"><a href="#" data-toggle="tooltip" title="Coming soon">Blue Orchard Bees</a></li> 
+                <li class="disabled"><a href="#" data-toggle="tooltip" title="Coming soon">Blue Orchard Bees</a></li> 
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Related Links
+                  <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Orchard Bee Association</a></li>
+                      <li><a href="#">UC Berkeley Bee Lab</a></li>
+                      <li><a href="#">Bee Identification, Distribution</a></li>
+                      <li><a href="#">USDA Research from Logan, UT</a></li>
+                      <li><a href="#">Native California Plants</a></li> 
+                    </ul>
+               </li>
+                <li><a href="#">Contact</a></li>
       				</ul>
     			</div>
 
@@ -44,16 +57,16 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <div class="well">
+            <div class="well" id="wells">
 
               <div class="row">
                 <div class="col-sm-9">
                   <h1 class="page-header">About</h1>
-                  <p>Foothill Bee Ranch raises blue orchard bees (Osmia lignaria) sustainably for pollination of crops in California. Our bees are sourced from populations native to the Sierra foothills and will only be sold in California.</p>
-                  <p>The ranch's founder, Steve Peterson, has a Ph.D. in (is it biology?? idr). He has conducted extensive research on blue orchard bees and his writing has been published in <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCaWdzTDgwTnQ2ZkU/view?usp=sharing" target="_blank">textbooks</a> and <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCWXp0V1pvR1g4VE0/view?usp=sharing" target="_blank">scientific journals</a>.
+                  <p style="font-size:16px">Foothill Bee Ranch raises blue orchard bees (Osmia lignaria) sustainably for pollination of crops in California. Our bees are sourced from populations native to the Sierra foothills and will only be sold in California.</p>
+                  <p style="font-size:16px">The ranch's founder, Steve Peterson, has a Ph.D. in Entomology and he has conducted extensive research on blue orchard bees. Published works: <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCaWdzTDgwTnQ2ZkU/view?usp=sharing" target="_blank">Book chapter,</a> <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCWXp0V1pvR1g4VE0/view?usp=sharing" target="_blank">popular article</a>.
                 </div>
                 <div class="col-sm-3">
-                  <div class="well" style="background-color: #d2d2d2;">
+                  <div class="well" style="background-color: #afb6a2;">
                     <h4><strong>Related Links</strong></h4>
                     <ul class="list-group">
                       <li class="list-group-item"><a href="#">Orchard Bee Association</a></li>
@@ -160,7 +173,7 @@
     <div class="row">
 
       <div class="col-sm-3">
-        <div class="well">
+        <div class="well" id="wells">
           <h3 class="page-header">Pollination Consulting</h3>
           <img src="image/sample.jpg" class="img-responsive" /><br />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -168,7 +181,7 @@
       </div>
 
       <div class="col-sm-3">
-        <div class="well">
+        <div class="well" id="wells">
           <h3 class="page-header">Bee<br/> Gardens</h3>
           <img src="image/sample.jpg" class="img-responsive" /><br />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -176,7 +189,7 @@
       </div>
 
       <div class="col-sm-3">
-        <div class="well">
+        <div class="well" id="wells">
           <h3 class="page-header">Solitary Bee Management</h3>
           <img src="image/sample.jpg" class="img-responsive" /><br />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -184,7 +197,7 @@
       </div>
 
       <div class="col-sm-3">
-        <div class="well">
+        <div class="well" id="wells">
           <h3 class="page-header">California native blue orchard bees</h3>
           <img src="image/sample.jpg" class="img-responsive" /><br />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -198,9 +211,9 @@
     <footer class="footer">
       <div class="container-fluid">
         <p class="text-muted">Foothill Bee Ranch &#169; 2016</p>
-        <p class="text-muted"><a href="mailto:stvptrsn9@gmail.com"><span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="stvptrsn9@gmail.com"></span></a> <a href="#"><span class="glyphicon glyphicon-phone" data-toggle="tooltip" title="(209) 338-7110"></span></a> Steve Peterson, Ph.D.</p>
+        <p class="text-muted"><a href="#">Contact Us</a></p>
       </div>
     </footer>
-
+    </div>
 </body>
 </html>
