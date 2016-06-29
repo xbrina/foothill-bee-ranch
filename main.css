@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+#bg {
+	background-color: #8b9675;
+}
+
 body {
 	display: flex;
 	min-height: 100vh;
@@ -43,4 +47,8 @@ img {
 	text-align: center;
 	padding: 15px;
 	padding-bottom: 5px !important;
+}
+
+#wells {
+	background-color: #c1c5b9;
 }
