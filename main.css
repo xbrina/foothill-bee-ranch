@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 #bg {
-	background-color: white;
+	background-color: #404040;
+	font-family: Sans Serif;
 }
 
 body {
@@ -17,15 +18,17 @@ body {
 	flex: 1;
 }
 
-.panel-heading {
-	background-color: #6ab7cb !important;
-	color: black;
+#pan-head {
+	background-color: #6ab7cb;
+	font-size: 30px;
+	font-style: bold;
 }
 
-.panel-body {
-	background-color: #f5f5f5 !important;
-	color: black;
+#pan-bod {
+	background-color: #f5f5f5;
+	font-size: 15px;
 }
+
 li img {
 	max-height: 50px !important;
 	width: 50px;
@@ -57,8 +60,4 @@ img {
 	text-align: center;
 	padding: 15px;
 	padding-bottom: 5px !important;
-}
-
-#wells {
-	background-color: #394246;
 }
