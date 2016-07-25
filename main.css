@@ -1,8 +1,27 @@
 @charset "utf-8";
-/* CSS Document */
+
+#bg {
+	background-color: #FFF;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
 
 .container {
-	width: 80%;
+	color: white;
+	width: 90% !important;
+	flex: 1;
+}
+
+li img {
+	max-height: 50px !important;
+	width: 50px;
+	margin: auto;
+	padding-right: 10px;
 }
 
 img {
@@ -13,4 +32,24 @@ img {
 .navbar-inverse {
 	font-size: 16px;
 	padding: 5px;
+	border-radius: 0 !important;
+}
+
+.carousel img {
+	width: auto;
+	height: 225px;
+	max-height: 500px;
+	margin: auto;
+}
+
+.footer {
+	background-color: #222222;
+	color: #d2d2d2;
+	text-align: center;
+	padding: 15px;
+	padding-bottom: 5px !important;
+}
+
+#wells {
+	background-color: #2691d9;
 }
