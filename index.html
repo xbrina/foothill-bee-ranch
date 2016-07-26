@@ -1,227 +1,121 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Foothill Bee Ranch</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="main.css">
+  <link href="main.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="bootstrap.css">
   <script src="jquery.js"></script>
   <script src="bootstrap.js"></script>
 </head>
 
 <body>
-	<div id="bg">
-	<div class="container">
+<div class="container">
 
-    	<div class="header">
-        	<img src="image/headerimg.jpg" class="img-responsive" alt="header" />
-        </div><br />
-
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-  			<div class="container-fluid">
-
-    			<div class="navbar-header">
-      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        				<span class="icon-bar"></span>
-        				<span class="icon-bar"></span>
-        				<span class="icon-bar"></span>
-      				</button>
-    			</div>
-
-    			<div class="collapse navbar-collapse" id="myNavbar">
-      				<ul class="nav navbar-nav">
-                		<li><img src="image/beeicon.png" max-width="15px" max-height="15px" class="img-responsive" /></li>
-        				<li class="active"><a href="index.html">Home</a></li>
-        				<li><a href="pollination-consulting.html">Pollination Consulting</a></li>
-        				<li><a href="bee-gardens.html">Bee Gardens</a></li>
-        				<li><a href="bee-management.html">Bee Management</a></li>
-                		<li class="disabled"><a href="blue-orchard-bees.html" data-toggle="tooltip" title="Coming soon">Blue Orchard Bees</a></li>
-                		<li class="dropdown">
-                  		    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Related Links
-                            <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                <li><a href="http://orchardbee.org">Orchard Bee Association</a></li>
-                                <li><a href="http://helpabee.org">UC Berkeley Bee Lab</a></li>
-                                <li><a href="http://discoverlife.org">Bee Identification, Distribution</a></li>
-                                <li><a href="http://www.ars.usda.gov/main/site_main.htm?modecode=20-80-05-00">USDA Research from Logan, UT</a></li>
-                                <li><a href="http://calflora.org">Native California Plants</a></li>
-                              </ul>
-                     	</li>
-                	 	<li><a href="contact.html">Contact</a></li>
-      				</ul>
-    			</div>
-
-  			</div>
-		</nav>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" id="pan-head">
-            <h1>About</h1>
-          </div>
-          <div class="panel-body" id="pan-bod">
-            <p style="font-size:16px">Foothill Bee Ranch raises blue orchard bees (Osmia lignaria) sustainably for pollination of crops in California. Our bees are sourced from populations native to the Sierra foothills and will only be sold in California.</p>
-            <p style="font-size:16px">The ranch's founder, Steve Peterson, has a Ph.D. in Entomology and he has conducted extensive research on blue orchard bees. Published works: <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCaWdzTDgwTnQ2ZkU/view?usp=sharing" target="_blank">Book chapter,</a> <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCWXp0V1pvR1g4VE0/view?usp=sharing" target="_blank">popular article</a>.
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-
-
-
-
-    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-        <li data-target="#myCarousel" data-slide-to="9"></li>
-        <li data-target="#myCarousel" data-slide-to="10"></li>
-        <li data-target="#myCarousel" data-slide-to="11"></li>
-        <li data-target="#myCarousel" data-slide-to="12"></li>
-        <li data-target="#myCarousel" data-slide-to="13"></li>
-        <li data-target="#myCarousel" data-slide-to="14"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="image/bee1.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee2.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee3.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee4.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee5.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee6.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee7.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee8.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee9.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee10.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee11.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee12.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee13.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee14.jpg" alt="Bee on flower">
-        </div>
-
-        <div class="item">
-          <img src="image/bee15.jpg" alt="Bees in mud">
-        </div>
+  <!-- start navbar -->
+  <div class="divnavbar">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="image/fbrlogo2.png" alt="#">Foothill Bee Ranch
+        </a>
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><br /> -->
+      <div id="navbar3" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index2.html">Home</a></li>
+          	<li class="dropdown">
+          		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+          		<span class="caret"></span></a>
+          			<ul class="dropdown-menu">
+                  <li class="menu-li"><a href="pollination-consulting.html">Pollination Consulting</a></li>
+                  <li class="menu-li"><a href="bee-gardens.html">Bee Gardens</a></li>
+                  <li class="menu-li"><a href="bee-management.html">Bee Management</a></li>
+                  <li class="menu-li"><a href="blue-orchard-bees.html" data-toggle="tooltip" title="Coming soon">Blue Orchard Bees</a></li>
+		            </ul>
+		    </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Related Links
+              <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="menu-li"><a href="http://orchardbee.org">Orchard Bee Association</a></li>
+                  <li class="menu-li"><a href="http://helpabee.org">UC Berkeley Bee Lab</a></li>
+                  <li class="menu-li"><a href="http://discoverlife.org">Bee Identification, Distribution</a></li>
+                  <li class="menu-li"><a href="http://www.ars.usda.gov/main/site_main.htm?modecode=20-80-05-00">USDA Research from Logan, UT</a></li>
+                  <li class="menu-li"><a href="http://calflora.org">Native California Plants</a></li>
+                </ul>
+           	</li>
+            <li><a href="#">Contact</a></li>
+	    </ul>
+	      </div>
+	    </div>
+	  </nav>
+	</div>
+  <!-- end navbar -->
 
+  <!-- start content -->
+	<div class="row">
+    <div class="col-sm-12">
+	      <div class="content" id="about">
+	        <h1 style="font-size: 4em"><strong>About</strong></h1>
+          <p style="font-size:20px">Foothill Bee Ranch raises blue orchard bees (Osmia lignaria) sustainably for pollination of crops in California. Our bees are sourced from populations native to the Sierra foothills and will only be sold in California.</p>
+          <p style="font-size:20px">The ranch's founder, Steve Peterson, has a Ph.D. in Entomology and he has conducted extensive research on blue orchard bees. Published works: <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCaWdzTDgwTnQ2ZkU/view?usp=sharing" target="_blank">Book chapter,</a> <a href="https://drive.google.com/file/d/0B94Gq9mk1ZQCWXp0V1pvR1g4VE0/view?usp=sharing" target="_blank">popular article</a>.</p>
+	      </div>
+	  </div>
+  </div>
 
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="panel panel-default">
-            <div class="panel-heading" id="pan-head">
-              <h3>Pollination Consulting</h3>
-            </div>
-            <div class="panel-body" id="pan-bod">
-              <img src="image/bee2.jpg" class="img-responsive" /><br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <div class="panel panel-default">
-            <div class="panel-heading" id="pan-head">
-              <h3>Bee Gardens</h3>
-            </div>
-            <div class="panel-body" id="pan-bod">
-              <img src="image/bee9.jpg" class="img-responsive" /><br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <div class="panel panel-default">
-            <div class="panel-heading" id="pan-head">
-              <h3>Solitary Bee Management</h3>
-            </div>
-            <div class="panel-body" id="pan-bod">
-              <img src="image/bee7.jpg" class="img-responsive" /><br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <div class="panel panel-default">
-            <div class="panel-heading" id="pan-head">
-              <h3>CA-Native Blue Orchard Bees</h3>
-            </div>
-            <div class="panel-body" id="pan-bod">
-              <img src="image/bee3.jpg" class="img-responsive" /><br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="content">
+          <h4>Pollination Consulting</h4>
+          <img src="image/bee2.jpg" class="img-responsive" /><br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
     </div>
 
-   </div>
-   </div>
+    <div class="col-sm-3">
+      <div class="content">
+          <h4>Bee Gardens</h4>
+          <img src="image/bee9.jpg" class="img-responsive" /><br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
 
+    <div class="col-sm-3">
+      <div class="content">
+          <h4>Solitary Bee Management</h4>
+          <img src="image/bee7.jpg" class="img-responsive" /><br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="content">
+          <h4>CA Native Blue Orchard Bees</h4>
+          <img src="image/bee1.jpg" class="img-responsive" /><br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+  <!-- end content -->
+
+	</div>
+  <!-- end container -->
+
+  <!-- start footer -->
   <footer class="footer">
     <div class="container-fluid">
-      <p class="text-muted">Foothill Bee Ranch &#169; 2016</p>
-	    <p class="text-muted"><a href="contact.html">Contact Us</a></p>
+      <p>Foothill Bee Ranch &#169; 2016</p>
+      <p><a href="contact.html">Contact Us</a></p>
     </div>
   </footer>
 
 </body>
+
 </html>
