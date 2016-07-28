@@ -1,17 +1,41 @@
 @charset "utf-8";
 
 body {
+	/* I dont think we actually need this stuff
+
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	width: 100%;
+	
+	*/
 
 	background-image: url("image/bee3.jpg");
 	background-repeat: no-repeat;
-	width: 100%;
 	background-color: rgb(074, 156, 092);
 	background-size: cover;
+	background-position: center;  /*yessssss*/
+	background-attachment: fixed; /*scroll magic*/
 }
 
+#about {
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+.content {
+	background: rgba(200, 230, 250, 0.75);
+	padding: 20px;
+	border: 1px #FFF solid;
+	border-radius: 5px;
+}
+.content h1 p {
+	color: rgb(049, 041, 044);
+}
+
+.content a {
+	color: rgb(0, 122, 128);
+}
 .container {
 	color: black;
 	width: 90% !important;
@@ -63,6 +87,7 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
 .menu-li>a:hover {
 	background-color: rgb(0, 122, 128) !important;
 }
+
 .divnavbar .navbar-brand {
   height: 80px;
 }
@@ -76,32 +101,13 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
   margin: 25px 15px 25px 0;
 }
 
-#about {
-	margin-top: 100px;
-	margin-bottom: 25px;
-}
-
-.content {
-	background: rgba(200, 230, 250, 0.65);
-	padding: 20px;
-	border: 1px #FFF solid;
-	border-radius: 5px;
-}
-.content h1 p {
-	color: rgb(049, 041, 044);
-}
-
-.content a {
-	color: rgb(0, 122, 128);
-}
-
 .footer {
 	color: #FFF;
 	text-align: center;
 	padding: 15px;
 	padding-bottom: 5px !important;
 	background-color: rgb(0, 122, 128);
-	margin-top: 40px;
+	margin-top: 50px;
 	border-top: 1px solid #FFF;
 }
 
