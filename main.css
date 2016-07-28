@@ -1,55 +1,150 @@
 @charset "utf-8";
 
-#bg {
-	background-color: #FFF;
-}
-
 body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+
+	background-image: url("image/bee3.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	background-color: rgb(074, 156, 092);
+	background-size: cover;
 }
 
-
 .container {
-	color: white;
+	color: black;
 	width: 90% !important;
 	flex: 1;
 }
 
-li img {
-	max-height: 50px !important;
-	width: 50px;
-	margin: auto;
-	padding-right: 10px;
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px !important;
 }
 
-img {
-	margin: auto;
-	width: 100%;
+.navbar-brand>a:hover {
+	color: rgb(155, 155, 155);
 }
 
-.navbar-inverse {
-	font-size: 16px;
-	padding: 5px;
-	border-radius: 0 !important;
+.dropdown-menu a {
+	color: rgb(155, 155, 155) !important;
 }
 
-.carousel img {
-	width: auto;
-	height: 225px;
-	max-height: 500px;
-	margin: auto;
+.navbar-custom {
+	background-color: rgb(0, 122, 128) !important;
+}
+
+#active {
+	color: rgb(049, 041, 044) !important;
+}
+
+.navbar-custom a {
+	color: #FFF !important;
+	font-size: 18px;
+}
+
+.navbar-custom a:hover {
+	color: #FFF !important;
+	text-decoration: underline;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 0px 15px;
+  width: auto;
+}
+
+li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
+    color:#000 !important;
+}
+
+.menu-li>a:hover {
+	background-color: rgb(0, 122, 128) !important;
+}
+.divnavbar .navbar-brand {
+  height: 80px;
+}
+
+.divnavbar .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.divnavbar .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+#about {
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+.content {
+	background: rgba(200, 230, 250, 0.65);
+	padding: 20px;
+	border: 1px #FFF solid;
+	border-radius: 5px;
+}
+.content h1 p {
+	color: rgb(049, 041, 044);
+}
+
+.content a {
+	color: rgb(0, 122, 128);
 }
 
 .footer {
-	background-color: #222222;
-	color: #d2d2d2;
+	color: #FFF;
 	text-align: center;
 	padding: 15px;
 	padding-bottom: 5px !important;
+	background-color: rgb(0, 122, 128);
+	margin-top: 40px;
+	border-top: 1px solid #FFF;
 }
 
-#wells {
-	background-color: #2691d9;
+.footer a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+          body {
+        background-image: none;
+        background-color: #000;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+          body {
+        background-image: none;
+        background-color: #000;
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    body {
+        background-image: none;
+        background-color: #000;
+    }
+
+		.navbar-brand {
+			font-size:20px !important;
+		}
+
 }
