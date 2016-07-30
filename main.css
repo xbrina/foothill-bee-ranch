@@ -158,8 +158,4 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
         background-image: none;
         background-color: #000;
     }
-
-		.navbar-brand {
-			font-size:0px !important;
-		}
 }
