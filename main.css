@@ -13,12 +13,12 @@ img.header {
 	width: 100%;
 }
 #about {
-	margin-top: 50px; /*130*/
+	margin-top: 50px; /*130px without img header*/
 	margin-bottom: 50px;
 }
 
 .content {
-	background: rgba(200, 230, 250, 0.75);
+	background: rgb(180, 230, 220);
 	padding: 20px;
 	border: 1px #FFF solid;
 	border-radius: 5px;
