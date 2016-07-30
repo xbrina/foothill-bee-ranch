@@ -1,25 +1,19 @@
 @charset "utf-8";
 
 body {
-	/* I dont think we actually need this stuff
-
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-	width: 100%;
-	
-	*/
-
-	background-image: url("image/bee3.jpg");
+	/*background-image: url("image/bee3.jpg");
 	background-repeat: no-repeat;
 	background-color: rgb(074, 156, 092);
 	background-size: cover;
-	background-position: center;  /*yessssss*/
-	background-attachment: fixed; /*scroll magic*/
+	background-position: center;
+	background-attachment: fixed;*/
 }
-
+img.header {
+	margin-top: 100px;
+	width: 100%;
+}
 #about {
-	margin-top: 130px;
+	margin-top: 50px; /*130*/
 	margin-bottom: 50px;
 }
 
