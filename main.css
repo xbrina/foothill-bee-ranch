@@ -23,8 +23,12 @@ img.header {
 	border: 1px #FFF solid;
 	border-radius: 5px;
 }
-.content h1 p {
-	color: rgb(049, 041, 044);
+.content>h1 {
+	font-size: 5em;
+}
+
+.content>p {
+	font-size:20px;
 }
 
 .content a {
@@ -133,6 +137,18 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
         background-color: #000;
     }
 
+    .header {
+    	display: none;
+    }
+
+    .content>h1 {
+    	font-size: 3em;
+    }
+
+    .content>p {
+    	font-size: 12px;
+    }
+
 }
 
 /* Portrait phones and smaller */
@@ -144,7 +160,6 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
     }
 
 		.navbar-brand {
-			font-size:20px !important;
+			font-size:0px !important;
 		}
-
 }
