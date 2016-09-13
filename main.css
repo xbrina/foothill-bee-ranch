@@ -17,6 +17,11 @@ img.header {
 	margin-bottom: 50px;
 }
 
+#main-text {
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
 .content {
 	background: rgb(180, 230, 220);
 	padding: 20px;
@@ -122,7 +127,7 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
-          body {
+    body {
         background-image: none;
         background-color: #000;
     }
@@ -132,7 +137,7 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 
-          body {
+    body {
         background-image: none;
         background-color: #000;
     }
@@ -158,4 +163,7 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
         background-image: none;
         background-color: #000;
     }
+		.navbar-brand {
+		  font-size: 15px !important;
+		}
 }
