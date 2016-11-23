@@ -1,0 +1,23 @@
+.image-holder {
+  display: block;
+}
+
+.image-inside {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  background: rgb(180, 230, 220);
+  margin-top: 5px;
+  padding: 10px;
+  border: 2px #000 solid;
+  border-radius: 1px;
+  font-size: 20px;
+}
+
+.text-holder {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}

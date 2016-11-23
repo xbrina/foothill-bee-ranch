@@ -1,16 +1,11 @@
 @charset "utf-8";
 
-body {
-	/*background-image: url("image/bee3.jpg");
-	background-repeat: no-repeat;
-	background-color: rgb(074, 156, 092);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;*/
-}
 img.header {
 	margin-top: 100px;
-	width: 100%;
+	/*width: 100%;*/
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #about {
 	margin-top: 50px; /*130px without img header*/
