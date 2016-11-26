@@ -1,15 +1,15 @@
 @charset "utf-8";
 
 img.header {
-	margin-top: 100px;
-	/*width: 100%;*/
-	width: 40%;
+	margin-top: 15%;
+	width: 49%;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 #about {
-	margin-top: 50px; /*130px without img header*/
-	margin-bottom: 50px;
+	margin-top: 2%;
+	margin-bottom: 3%;
 }
 
 #main-text {
@@ -17,14 +17,21 @@ img.header {
 	margin-bottom: 75px;
 }
 
+.header-div {
+	display: block;
+}
+
 .content {
 	background: rgb(180, 230, 220);
-	padding: 20px;
-	border: 1px #FFF solid;
+	padding: 4%;
 	border-radius: 5px;
 }
 .content>h1 {
-	font-size: 4em;
+	font-size: 40px;
+}
+
+.page-header {
+	border-color: black !important;
 }
 
 .content>p {
@@ -34,9 +41,10 @@ img.header {
 .content a {
 	color: rgb(0, 122, 128);
 }
+
 .container {
 	color: black;
-	width: 90% !important;
+	width: 80% !important;
 	flex: 1;
 }
 
