@@ -12,11 +12,6 @@ img.header {
 	margin-bottom: 3%;
 }
 
-#main-text {
-	margin-top: 130px;
-	margin-bottom: 75px;
-}
-
 .header-div {
 	display: block;
 }
@@ -24,10 +19,11 @@ img.header {
 .content {
 	background: rgb(180, 230, 220);
 	padding: 4%;
-	border-radius: 5px;
+	border-radius: 0.3em;
+	margin-bottom: 1em;
 }
 .content>h1 {
-	font-size: 40px;
+	font-size: 3em;
 }
 
 .page-header {
@@ -35,7 +31,7 @@ img.header {
 }
 
 .content>p {
-	font-size:20px;
+	font-size:1.25em;
 }
 
 .content a {
@@ -51,7 +47,7 @@ img.header {
 .navbar-brand {
   display: flex;
   align-items: center;
-  font-size: 24px !important;
+  font-size: 1.5em !important;
 }
 
 .navbar-brand>a:hover {
@@ -72,7 +68,7 @@ img.header {
 
 .navbar-custom a {
 	color: #FFF !important;
-	font-size: 18px;
+	font-size: 1.25em;
 }
 
 .navbar-custom a:hover {
@@ -82,7 +78,7 @@ img.header {
 
 .navbar-brand>img {
   height: 100%;
-  padding: 0px 15px;
+  padding: 0em 0.75em;
   width: auto;
 }
 
@@ -95,26 +91,26 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
 }
 
 .divnavbar .navbar-brand {
-  height: 80px;
+  height: 3.5em;
 }
 
 .divnavbar .nav >li >a {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
 }
 .divnavbar .navbar-toggle {
-  padding: 10px;
-  margin: 25px 15px 25px 0;
+  padding: 0.75em;
+  margin: 2em 1em 2em 0em;
 }
 
 .footer {
 	color: #FFF;
 	text-align: center;
-	padding: 15px;
-	padding-bottom: 5px !important;
+	padding: 1em;
+	padding-bottom: 0.5em !important;
 	background-color: rgb(0, 122, 128);
-	margin-top: 50px;
-	border-top: 1px solid #FFF;
+	margin-top: 5%;
+/* 	border-top: 1px solid #FFF; */
 }
 
 .footer a {
@@ -129,44 +125,79 @@ li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
-    body {
-        background-image: none;
-        background-color: #000;
-    }
-
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+	img.header {
+		margin-top: 20%;
+	}
+	
+	.content>h1 {
+		font-size: 2em;
+	}
 
-    body {
-        background-image: none;
-        background-color: #000;
-    }
+	.content>p {
+		font-size:1em;
+	}
 
-    .header {
-    	display: none;
-    }
+	.navbar-brand {
+	  display: flex;
+	  align-items: center;
+	  font-size: 1em !important;
+	}
 
-    .content>h1 {
-    	font-size: 3em;
-    }
+	#active {
+		color: rgb(049, 041, 044) !important;
+	}
 
-    .content>p {
-    	font-size: 14px;
-    }
+	.navbar-custom a {
+		color: #FFF !important;
+		font-size: 1em;
+	}
+
+	.navbar-custom a:hover {
+		color: #FFF !important;
+		text-decoration: underline;
+	}
+
+	.navbar-brand>img {
+	  height: 90%;
+	  padding: 0em 00.25em;
+	  width: auto;
+	}
+
+	li.dropdown.open>a,.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
+	    color:#000 !important;
+	}
+
+	.menu-li>a:hover {
+		background-color: rgb(0, 122, 128) !important;
+	}
+
+	.divnavbar .navbar-brand {
+	  height: 3.5em;
+	}
+
+	.divnavbar .nav >li >a {
+	  padding-top: 1em;
+	  padding-bottom: 1em;
+	}
+	.divnavbar .navbar-toggle {
+	  padding: 0.3em;
+	  margin: 1em 1em 1em 1em;
+	}
 
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-width: 400px) {
 
-    body {
-        background-image: none;
-        background-color: #000;
-    }
-		.navbar-brand {
-		  font-size: 15px !important;
-		}
+	.header {
+		display: none;
+	}
+  
+	#about {
+		margin-top: 20%;
+	}
 }
