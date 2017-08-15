@@ -9,7 +9,7 @@ img.header {
 }
 
 #about {
-	margin-top: 2%;
+	margin-top: 10%;
 	margin-bottom: 3%;
 }
 
@@ -22,6 +22,7 @@ img.header {
 	padding: 4%;
 	border-radius: 0.3em;
 	margin-bottom: 1em;
+	font-size: 1.25em;
 }
 .content>h1 {
 	font-size: 3em;

@@ -1,119 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Foothill Bee Ranch</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="main.css" type="text/css" rel="stylesheet" />
-  <link rel="stylesheet" href="bootstrap.min.css"> 
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-  <script src="jquery.js"></script>
-  <script src="bootstrap.min.js"></script>
+  <title>Foothill Bee Ranch</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <script src="jquery.js">
+  </script>
+  <script src="bootstrap.min.js">
+  </script>
 </head>
-
 <body>
-<div class="container">
-
-  <!-- start navbar -->
-  <div class="divnavbar">
-  <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a id="corner-title" class="navbar-brand" href="index.html"><img src="images/fbrlogo2.png" alt="#" />Foothill Bee Ranch</a>
-      </div>
-      <div id="navbar3" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li class="menu-li"><a href="pollination-consulting.html">Pollination Consulting</a></li>
-          <!-- <li class="menu-li"><a href="bee-gardens.html">Bee Gardens</a></li> -->
-          <!-- <li class="menu-li"><a href="bee-management.html">Bee Management</a></li> -->
-          <li class="menu-li"><a href="osmia-lignaria.html"><em>Osmia lignaria</em></a></li>
-          <li class="menu-li"><a href="osmia-ribifloris.html"><em>Osmia ribifloris</em></a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Related Links<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li class="menu-li"><a href="http://orchardbee.org">Orchard Bee Association</a></li>
-              <li class="menu-li"><a href="http://helpabee.org">UC Berkeley Urban Bee Lab</a></li>
-              <li class="menu-li"><a href="http://discoverlife.org">DiscoverLife.org</a></li>
-              <li class="menu-li"><a href="http://www.ars.usda.gov/main/site_main.htm?modecode=20-80-05-00">USDA Logan UT Bee Lab</a></li>
-              <li class="menu-li"><a href="http://calflora.org">CalFlora.org</a></li>
+  <div class="container">
+    <!-- start navbar -->
+    <div class="divnavbar">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-target="#navbar3" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html" id="corner-title"><img alt="#" src="images/fbrlogo2.png">Foothill Bee Ranch</a>
+          </div>
+          <div class="navbar-collapse collapse" id="navbar3">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li class="menu-li">
+                <a href="pollination-consulting.html">Pollination Consulting</a>
+              </li><!-- <li class="menu-li"><a href="bee-gardens.html">Bee Gardens</a></li> -->
+              <!-- <li class="menu-li"><a href="bee-management.html">Bee Management</a></li> -->
+              <li class="menu-li">
+                <a href="osmia-lignaria.html"><em>Osmia lignaria</em></a>
+              </li>
+              <li class="menu-li">
+                <a href="osmia-ribifloris.html"><em>Osmia ribifloris</em></a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Related Links<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="menu-li">
+                    <a href="http://orchardbee.org">Orchard Bee Association</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="http://helpabee.org">UC Berkeley Urban Bee Lab</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="http://discoverlife.org">DiscoverLife.org</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="http://www.ars.usda.gov/main/site_main.htm?modecode=20-80-05-00">USDA Logan UT Bee Lab</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="http://calflora.org">CalFlora.org</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
             </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-	</ul>
+          </div>
+        </div>
+      </nav>
+    </div><!-- end navbar -->
+    <!-- start content -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="content" id="about">
+          <h1 align="center" class="page-header"><strong>Welcome to Foothill Bee Ranch</strong></h1>
+          <p>Foothill Bee Ranch raises mason bees, <em>Osmia lignaria</em> and <em>Osmia ribifloris</em>, sustainably for pollination of crops in California. Our bees are sourced from populations native to the Sierra foothills for use in California.</p>
+        </div>
       </div>
     </div>
-  </nav>
-  </div>
-  <!-- end navbar -->
-
-  <!-- start content -->
-  <br /><br />
-  <br /><br />
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="content" id="about">
-        <h1 class="page-header" align="center"><strong>Welcome to Foothill Bee Ranch</strong></h1>
-        <p>Foothill Bee Ranch raises mason bees, <em>Osmia lignaria</em> and <em>Osmia ribifloris</em>, sustainably for pollination of crops in California. Our bees are sourced from populations native to the Sierra foothills for use in California.</p>
-      </div>
-    </div>
-  </div>
-
-    <p align="center">
-        <img src="images/fbr10.jpg" width="48%" />
-        <img src="images/fbr18.jpg" width="48%" />
-    </p>
-
-
-  <div class="row">
-
-    <div class="col-sm-4">
-      <div class="content">
-          <h3 align="center">Pollination Consulting</h3>
-          <a href="pollination-consulting.html">
-            <img src="images/fbr36.jpg" class="img-responsive" /><br />
-          </a>
+    <p align="center"><img src="images/fbr10.jpg" width="48%"> <img src="images/fbr18.jpg" width="48%"></p>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="content">
+          <h3 align="center">Pollination Consulting</h3><a href="pollination-consulting.html"><img class="img-responsive" src="images/fbr36.jpg"><br></a>
           <p>Click on the image above to learn more about pollination consulting services.</p>
-      </div>
-    </div>
-
-    <!-- <div class="col-sm-3">
+        </div>
+      </div><!-- <div class="col-sm-3">
       <div class="content">
           <h3>Solitary Bee Management</h3>
           <img src="image/BOB almond small.jpg" class="img-responsive" /><br />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div> -->
-
-    <div class="col-sm-4">
+      <div class="col-sm-4">
         <div class="content">
-            <h3 align="center"><em>Osmia lignaria</em></h3>
-            <a href="osmia-lignaria.html">
-              <img src="images/fbr2.jpg" class="img-responsive" /><br />
-            </a>
-            <p>Click on the image above to learn more about <em>Osmia lignaria</em>, the blue orchard bee.</p>
-	    <p>Pollinates almonds, cherries, plums, apples, pears, and others.</p>
+          <h3 align="center"><em>Osmia lignaria</em></h3><a href="osmia-lignaria.html"><img class="img-responsive" src="images/fbr2.jpg"><br></a>
+          <p>Click on the image above to learn more about <em>Osmia lignaria</em>, the blue orchard bee.</p>
+          <p>Pollinates almonds, cherries, plums, apples, pears, and others.</p>
         </div>
-    </div>
-
-    <div class="col-sm-4">
+      </div>
+      <div class="col-sm-4">
         <div class="content">
-            <h3 align="center"><em>Osmia ribifloris</em></h3>
-            <a href="osmia-ribifloris.html">
-              <img src="images/fbr34.jpg" class="img-responsive" /><br />
-            </a>
-            <p>Click on the image above to learn more about <em>Osmia ribifloris</em>.</p>
-	    <p>Pollinates blueberries.</p>
+          <h3 align="center"><em>Osmia ribifloris</em></h3><a href="osmia-ribifloris.html"><img class="img-responsive" src="images/fbr34.jpg"><br></a>
+          <p>Click on the image above to learn more about <em>Osmia ribifloris</em>.</p>
+          <p>Pollinates blueberries.</p>
         </div>
-    </div>
-
-    <!-- <div class="col-sm-4">
+      </div><!-- <div class="col-sm-4">
         <div class="content">
             <h3>Photo Gallery</h3>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -158,21 +146,15 @@
             </div>
         </div>
     </div> -->
-
-  <!-- <div class="col-sm-3">
+      <!-- <div class="col-sm-3">
     <div class="content">
       <h3>Bee Gardens</h3>
       <img src="image/bee2.jpg" class="img-responsive" /><br />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div> -->
-
-</div>
-  <!-- end content -->
-
-	</div>
-  <!-- end container -->
-
+    </div><!-- end content -->
+  </div><!-- end container -->
   <!-- start footer -->
   <footer class="footer">
     <div class="container-fluid">
@@ -180,7 +162,5 @@
       <p><a href="contact.html">Contact Us</a></p>
     </div>
   </footer>
-
 </body>
-
 </html>
